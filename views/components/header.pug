@@ -1,0 +1,23 @@
+.container-fluid.navbar-light.bg-light.mb-3
+  .container
+    nav.navbar.navbar-expand-lg
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarSupportedContent.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+          li.nav-item
+            a.nav-link(href='./') Музей 
+          li.nav-item.dropdown
+            a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+              | Еще
+            .dropdown-menu(aria-labelledby='navbarDropdown')
+              a.dropdown-item(href='./') 1
+              .dropdown-divider
+              a.dropdown-item(href='./') 2
+          li.nav-item
+            a.nav-link(href='./events') События
+          li.nav-item
+            a.nav-link(href='./guests') Посетителям
+          li.nav-item
+            a.nav-link(href='./contact') Контакты
+
